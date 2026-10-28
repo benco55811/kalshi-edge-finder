@@ -1,4 +1,4 @@
-```python
+
 import json, math, itertools, re
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -162,4 +162,3 @@ if combos:
     st.dataframe(pd.DataFrame(combos).sort_values("Expected profit $", ascending=False).head(25), use_container_width=True, hide_index=True)
 else:
     st.info("No combos pass your win-chance filter. The single bets above are your play.")
-```
