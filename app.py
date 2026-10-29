@@ -86,4 +86,3 @@ else:
         )
 
 st.info("Estimates come from a simple price model, not a guarantee. Never bet more than you can lose.")
-```
